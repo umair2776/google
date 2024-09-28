@@ -1,0 +1,126 @@
+.google{
+    display: flex;
+}
+.google {
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    margin-top: 8px;
+    font-size: 40px;
+
+}
+.navbar{
+    display: flex;
+    margin-top: 23px;
+    justify-content: center;
+    margin-left: 100px;
+    gap: 30px;
+}
+.navbar li{
+    list-style: none;
+}
+.prenav {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the list items */
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid black; /* Add a border around each item */
+    padding: 10px; /* Add padding inside each border */
+    border-radius: 5px; /* Optional: Round the borders */
+  }
+  
+  .list-item li {
+    list-style: none;
+  }
+  .prenav {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the list items */
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid black; /* Add a border around each item */
+    padding: 10px; /* Add padding inside each border */
+    border-radius: 20px; /* Optional: Round the borders */
+    opacity: 0.6;
+  }
+  
+  .list-item li {
+    list-style: none;
+  }
+  .list-item:hover{
+    cursor: pointer;
+    background-color: rgb(216, 220, 224);
+  }
+  .one img{
+    height: 300px;
+    width: 300px;
+  }
+  .pictures{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+    .footer{
+        margin-left: 100px;
+        margin-top: 30px;
+        display: flex;
+        gap: 100px;
+    }
+    .footer h3{
+        opacity: 0.5;
+    }
+    .play-list{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .play-list li{
+        list-style: none;
+        opacity: 0.7;
+
+    }
+    .kids-list{
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+    }
+    .kids-list li{
+        list-style: none;
+        opacity: 0.7;
+
+    }
+    .line-list{
+        display: flex;
+        margin-left: 50px;
+        margin-top: 50px;
+        gap: 40px;
+    }
+    .line-list li{
+        list-style: none;
+        opacity: 0.7;
+    }
+    .discover {
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    hr{
+        margin-top: 50px;
+        opacity: 0.5;
+    }
+    .line {
+      text-decoration: none;
+      color: black;
+    }
